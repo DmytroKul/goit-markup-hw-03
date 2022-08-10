@@ -74,7 +74,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: #2196f3;
   width: 145px;
@@ -105,7 +105,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #212121;
 }
@@ -125,7 +125,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .contacts-link li a {
@@ -172,7 +172,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.5;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -189,7 +189,7 @@ a {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.5;
   padding: 10px 32px;
   text-align: center;
   letter-spacing: 0.06em;
@@ -248,7 +248,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -262,7 +262,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -299,7 +299,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -318,7 +318,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -330,7 +330,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -369,7 +369,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
@@ -382,7 +382,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -401,7 +401,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
 }
 .address-color {
@@ -470,7 +470,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 1.5;
   letter-spacing: 0.06em;
   color: #212121;
   margin-top: 20px;
