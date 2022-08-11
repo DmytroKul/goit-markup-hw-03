@@ -58,9 +58,11 @@ a {
   display: flex;
   align-items: center;
   height: 80px;
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar {
@@ -77,6 +79,7 @@ a {
   letter-spacing: 0.03em;
   color: #2196f3;
   width: 145px;
+  align-items: center;
 }
 
 .logo-color {
