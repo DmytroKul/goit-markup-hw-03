@@ -410,6 +410,10 @@ a {
   color: #ffffff;
 }
 
+.contact-footer li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /* portfolio */
 
 .filters-list {
