@@ -40,8 +40,12 @@ h6,
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
@@ -317,7 +321,7 @@ a {
 
 .title-our-team {
   text-align: center;
-  margin-top: 30px;
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -327,8 +331,13 @@ a {
   color: #212121;
 }
 
+.box-our-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .text-our-team {
-  margin-top: 10px;
+  margin: 0;
   text-align: center;
   font-style: normal;
   font-weight: 400;
@@ -360,14 +369,15 @@ a {
   background-color: #2f303a;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer-span {
   color: #fff;
 }
 .logo-footer {
-  display: inline-block;
-  margin-top: 60px;
-  margin-left: 215px;
+  display: block;
+  margin-bottom: 20px;
 
   font-style: normal;
   font-weight: 700;
@@ -378,9 +388,6 @@ a {
 }
 
 .address {
-  margin-left: 215px;
-  margin-top: 20px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -388,13 +395,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.contact-footer {
-  list-style-type: none;
-
-  margin-top: 10px;
-  padding-bottom: 60px;
 }
 
 .contact-footer li a {
@@ -424,7 +424,6 @@ a {
   height: 54px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 94px;
   margin-bottom: 34px;
 }
 
@@ -458,7 +457,9 @@ a {
 }
 
 .section-portfolio {
-  width: 1170px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   ackground: var(--primary-bg-color);
@@ -468,8 +469,15 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
 
-  padding-bottom: 94px;
+.portfolio-box-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .title-find {
@@ -479,9 +487,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.06em;
   color: #212121;
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-bottom: 4px;
 }
 
 .text-find {
@@ -491,7 +496,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-left: 24px;
 }
 
 .portfolio-link {
@@ -543,7 +547,7 @@ a {
 
 .box-filters {
   background: #ffffff;
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
   width: 370px;
   height: 404px;
 }
