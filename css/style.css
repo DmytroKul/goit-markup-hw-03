@@ -286,6 +286,22 @@ a {
   color: #757575;
 }
 
+.about-link-icon {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.about-icon {
+  width: 70px;
+  height: 70px;
+  gap: 30px;
+}
+
 /* third-section */
 
 .title-shirt {
@@ -360,9 +376,38 @@ a {
   color: #757575;
 }
 
+.team-icon-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.team-icon-link:hover {
+  fill: var(--accent-color);
+}
+
+.team-icon {
+  width: 22px;
+  height: 22px;
+  fill: #afb1b8;
+}
+.team-icon:hover {
+  fill: var(--accent-color);
+}
+
+.team-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .box {
   width: 270px;
-  height: 368px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
