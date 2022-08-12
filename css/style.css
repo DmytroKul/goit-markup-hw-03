@@ -54,8 +54,6 @@ a {
 /* HEader */
 .header {
   border-bottom: 1px solid #ececec;
-  width: 1600px;
-  margin: 0 auto;
 }
 
 .conteiner-header {
@@ -275,12 +273,11 @@ a {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
-  margin-left: 20px;
 }
 
 .about-text {
   min-width: 270px;
-  margin-left: 20px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -395,7 +392,18 @@ a {
 
 .customers-list {
   display: flex;
+  align-items: center;
+
+  display: flex;
+  gap: 30px;
 }
+
+.customers-icon {
+  width: 93px;
+  height: 43px;
+  fill: #afb1b8;
+}
+
 /* footer */
 
 .coonteiner-footer {
@@ -403,7 +411,6 @@ a {
   margin: 0 auto;
 }
 .footer {
-  width: 1600px;
   margin: 0 auto;
   background-color: #2f303a;
   padding-top: 60px;
@@ -414,7 +421,7 @@ a {
 }
 .logo-footer {
   display: block;
-
+  margin-right: 156px;
   margin-bottom: 20px;
 
   font-style: normal;
@@ -426,6 +433,7 @@ a {
 }
 
 .address {
+  width: 231px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -433,6 +441,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin-right: 60px;
 }
 
 .contact-footer li a {
@@ -455,6 +464,34 @@ a {
 
 .footer-first {
   display: flex;
+  align-items: baseline;
+}
+
+.folow-us {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-last {
+  display: flex;
+}
+
+.footer-list-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
 }
 
 /* portfolio */
