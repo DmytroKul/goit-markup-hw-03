@@ -327,7 +327,7 @@ a {
   display: block;
 }
 
-/* our  team */
+/* our  aaa */
 
 .title-team {
   text-align: center;
@@ -374,6 +374,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .team-icon-link {
@@ -387,10 +388,12 @@ a {
   fill: #afb1b8;
 }
 .team-icon-link:hover {
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
 }
-
-.team-icon {
+.team-icon-link:hover .team-icon {
+  fill: #ffffff;
+}
+a .team-icon {
   width: 22px;
   height: 22px;
   fill: #afb1b8;
@@ -438,7 +441,7 @@ a {
 .customers-list {
   display: flex;
   align-items: center;
-
+  justify-content: center;
   display: flex;
   gap: 30px;
 }
@@ -447,6 +450,22 @@ a {
   width: 93px;
   height: 43px;
   fill: #afb1b8;
+}
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.customers-link:hover {
+  border-color: var(--accent-color);
+}
+
+.customers-link .customers-icon {
+  color: #ffffff;
 }
 
 /* footer */
@@ -536,7 +555,6 @@ a {
 .footer-icon {
   width: 20px;
   height: 20px;
-  fill: #ffffff;
 }
 .footer-icon-link {
   width: 44px;
@@ -550,11 +568,10 @@ a {
 }
 
 .footer-icon-link:hover {
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
 }
-
-.footer-icon:hover {
-  fill: var(--accent-color);
+.footer-icon-link .footer-icon {
+  fill: #ffffff;
 }
 
 /* portfolio */
