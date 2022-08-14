@@ -630,6 +630,7 @@ a .team-icon {
 
 .footer-last {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-list-icon {
@@ -681,6 +682,7 @@ a .team-icon {
 /* btn-footer */
 
 .btn-footer {
+  display: block;
   align-items: center;
   justify-content: center;
   border: none;
