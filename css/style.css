@@ -129,7 +129,7 @@ a {
   position: relative;
 }
 
-.header-nav-link::before {
+.header-nav-link::after {
   content: '';
   width: 100%;
   height: 2px;
@@ -141,7 +141,7 @@ a {
   transform: scaleX(0);
 }
 
-.header-nav-link:hover::before {
+.header-nav-link:hover::after {
   transform: scaleX(1);
 }
 
@@ -174,7 +174,7 @@ a {
 }
 
 .contacts-link li a {
-  transition: all 0.3s ease 0s;
+  transition: cubic-bezier(0.25, 0, 0.2, 1);
 }
 
 .contacts-link li a:hover,
@@ -353,6 +353,36 @@ a {
 
 .pic {
   display: block;
+}
+
+.shirt-list li {
+  position: relative;
+}
+
+.shirt-box {
+  position: absolute;
+  width: 370px;
+  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  bottom: 0;
+  right: 0;
+}
+
+.shirt-box-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 /* our  aaa */
