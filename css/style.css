@@ -556,6 +556,7 @@ a .team-icon {
 }
 .logo-footer {
   display: block;
+  width: 145px;
   margin-right: 156px;
   margin-bottom: 20px;
 
@@ -576,7 +577,7 @@ a .team-icon {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-right: 50px;
+  margin-right: 70px;
 }
 
 .contact-footer li a {
@@ -610,6 +611,19 @@ a .team-icon {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  width: 206px;
+  margin-right: 93px;
+  color: #ffffff;
+}
+
+.follow-us-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
   color: #ffffff;
 }
@@ -619,14 +633,28 @@ a .team-icon {
 }
 
 .footer-list-icon {
+  width: 206px;
   display: flex;
   gap: 10px;
+  margin-right: 93px;
 }
 
 .footer-icon {
   width: 20px;
   height: 20px;
 }
+
+/* input-email */
+.input-email {
+  width: 358px;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
 .footer-icon-link {
   width: 44px;
   height: 44px;
@@ -648,6 +676,30 @@ a .team-icon {
 
 .footer-icon-link .footer-icon {
   fill: #ffffff;
+}
+
+/* btn-footer */
+
+.btn-footer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 24px;
 }
 
 /* portfolio */
@@ -761,13 +813,15 @@ a .team-icon {
   background: #ffffff;
 }
 
-.dima {
+.img-box {
   position: relative;
 }
 
-.dima::before {
+.img-box::before {
   display: inline-block;
   position: absolute;
+  top: 0;
+  right: 0;
   content: '';
   width: 100%;
   height: 100%;
