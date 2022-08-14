@@ -392,9 +392,19 @@ a {
 .team-icon-link:hover {
   background-color: var(--accent-color);
 }
+
+.team-icon-link:focus {
+  background-color: var(--accent-color);
+}
+
 .team-icon-link:hover .team-icon {
   fill: #ffffff;
 }
+
+.team-icon-link:focus .team-icon {
+  fill: #ffffff;
+}
+
 a .team-icon {
   width: 22px;
   height: 22px;
@@ -459,15 +469,16 @@ a .team-icon {
   align-items: center;
   width: 170px;
   height: 92px;
+  background-color: transparent;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .customers-link:hover {
   border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .customers-link .customers-icon {
-  color: #ffffff;
 }
 
 /* footer */
@@ -572,6 +583,11 @@ a .team-icon {
 .footer-icon-link:hover {
   background-color: var(--accent-color);
 }
+
+.footer-icon-link:focus {
+  background-color: var(--accent-color);
+}
+
 .footer-icon-link .footer-icon {
   fill: #ffffff;
 }
