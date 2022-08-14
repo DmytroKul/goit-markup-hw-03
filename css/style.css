@@ -108,7 +108,7 @@ a {
 }
 
 .nav-links li a {
-  transition: all 0.3s ease 0s;
+  transition: 250ms;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -143,6 +143,7 @@ a {
 
 .header-nav-link:hover::after {
   transform: scaleX(1);
+  transition: 250ms;
 }
 
 /*contacts-link */
@@ -704,8 +705,15 @@ a .team-icon {
   flex-wrap: wrap;
   align-items: center;
 }
-
 .portfolio-box-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+/* .portfolio-box-item {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
@@ -721,7 +729,7 @@ a .team-icon {
 .portfolio-box-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 .title-find {
   font-style: normal;
@@ -730,6 +738,8 @@ a .team-icon {
   line-height: 1.5;
   letter-spacing: 0.06em;
   color: #212121;
+
+  margin-left: 25px;
 }
 
 .text-find {
@@ -739,14 +749,25 @@ a .team-icon {
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-left: 25px;
 }
 
 .portfolio-link {
   gap: 30px;
 }
 
+.portfolio-link-img {
+  width: 370px;
+  background: #ffffff;
+}
+
 .find-list {
   gap: 30px;
+}
+
+.portfolio-link-img:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* .portfolio-link:nth-child(1) {
