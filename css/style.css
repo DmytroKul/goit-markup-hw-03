@@ -49,6 +49,25 @@ p {
 a {
   text-decoration: none;
 }
+
+/* section */
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section.no-padding {
+  padding-top: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* section */
 /*  */
 
 /* HEader */
@@ -246,24 +265,6 @@ a {
   cursor: pointer;
 }
 
-/* section */
-.conteiner {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.section.no-padding {
-  padding-top: 0;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-/* section */
 /* pic */
 
 /* Seconns section */
@@ -646,9 +647,12 @@ a .team-icon {
 }
 
 /* input-email */
+
 .input-email {
   width: 358px;
-  height: 48px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
