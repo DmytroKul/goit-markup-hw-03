@@ -187,7 +187,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -270,6 +270,10 @@ a {
   cursor: pointer;
 }
 
+/* label*/
+
+/* label */
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -305,7 +309,9 @@ a {
 
   fill: #000000;
 }
-
+.btn-close .icon-close:hover {
+  color: var(--accent-color);
+}
 .btn-close {
   display: block;
   background-color: #ffffff;
@@ -315,13 +321,13 @@ a {
   margin-left: auto;
   margin-right: 8px;
   margin-top: 8px;
+  fill: #000000;
+  cursor: pointer;
 }
 
 .conteiner-modal {
   width: 448px;
   margin: 0 auto;
-}
-.lable {
 }
 
 .model-tittle {
@@ -329,7 +335,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -451,7 +457,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -688,7 +694,7 @@ a .team-icon {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   width: 206px;
@@ -702,7 +708,7 @@ a .team-icon {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
