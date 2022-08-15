@@ -79,6 +79,19 @@
               </div>
               <div class="conteiner-modal">
                 <h1 class="model-tittle">Залиште свої дані, ми вам передзвонимо</h1>
+                <div class="lable">
+                  <label for="name">Ім'я</label>
+
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    minlength="4"
+                    maxlength="8"
+                    size="10"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -399,13 +412,9 @@
 
     <!-- footer -->
     <footer class="footer">
-      <div class="conteiner">
+      <div class="conteiner-footer">
         <div class="footer-first">
           <a class="logo-footer" href="/">Web<span class="logo-footer-span">Studio</span> </a>
-          <p class="folow-us">приєднуйтесь</p>
-          <p class="follow-us-text">Підпишіться на розсилку</p>
-        </div>
-        <div class="footer-last">
           <address class="address">
             <ul class="contact-footer">
               <li>
@@ -417,6 +426,9 @@
               <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
           </address>
+        </div>
+        <div class="footer-last">
+          <p class="folow-us">приєднуйтесь</p>
           <ul class="footer-list-icon">
             <li>
               <a href="" class="footer-icon-link">
@@ -447,16 +459,19 @@
               </a>
             </li>
           </ul>
-          <input
-            class="input-email"
-            type="email"
-            id="email"
-            pattern=""
-            size="1"
-            placeholder="E-mail"
-            required
-          />
-          <div>
+        </div>
+        <div>
+          <p class="follow-us-text">Підпишіться на розсилку</p>
+          <div class="footer-icon-btn">
+            <input
+              class="input-email"
+              type="email"
+              id="email"
+              pattern=""
+              size="1"
+              placeholder="E-mail"
+              required
+            />
             <button type="button" class="btn-footer">
               <span class="span-follow-footer">Підписатися</span
               ><svg class="icon-send">
